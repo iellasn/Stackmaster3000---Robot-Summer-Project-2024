@@ -45,6 +45,61 @@ DONE: drive PID tuning
     find better suited motors
 
 
+
+├── README.md
+├── include
+│   └── README
+├── lib
+│   ├── BPmain.cpp
+│   ├── Motor
+│   │   ├── Motor.cpp
+│   │   └── Motor.h
+│   ├── README
+│   ├── RobotConstants
+│   │   ├── bpConstants.h
+│   │   ├── espConstants.h
+│   │   └── robotConstants.h
+│   ├── RobotSystems
+│   │   ├── RobotSystems.cpp
+│   │   └── RobotSystems.h
+│   ├── RotaryEncoder
+│   │   ├── RotaryEncoder.cpp
+│   │   └── RotaryEncoder.h
+│   ├── bp-localize-tests.cpp
+│   ├── bp-plate.cpp
+│   ├── bpplatformio.ini
+│   ├── claw
+│   │   ├── claw.cpp
+│   │   └── claw.h
+│   ├── esp-Main-Final copy.cpp
+│   ├── esp-Main-Final.cpp
+│   ├── esp-localization-test.cpp
+│   ├── esp-servo-tests.cpp
+│   ├── espMain.cpp
+│   ├── files
+│   │   ├── Elevator.cpp
+│   │   ├── IR_Sensor.cpp
+│   │   ├── LinearArm.cpp
+│   │   ├── PlateMovement.cpp
+│   │   ├── Station_Transversing.cpp
+│   │   ├── lazySusan.cpp
+│   │   ├── linear arm update.cpp
+│   │   └── main.cpp
+│   ├── func
+│   │   └── func.h
+│   ├── pwm test.cpp
+│   ├── tapeTest.cpp
+│   └── uartTests
+│       ├── BPmain-uartTests.cpp
+│       ├── espDisplay.cpp
+│       └── espMain-uartTest.cpp
+├── platformio.ini
+├── src
+│   └── bp-Main-Final.cpp
+└── test
+    └── README
+
+
 Determine communcation data structure & what information to send
 
 PID tuning for IR beacon sensor
